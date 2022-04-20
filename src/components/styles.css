@@ -1,0 +1,32 @@
+.input{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+
+.input_box{
+    width: 100%;
+    border-radius: 50px;
+    padding: 20px 20px;
+    border: none;
+    box-shadow: inset 0 0 5px black;
+}
+
+.input_submit{
+    position: absolute;
+    border-radius: 100%;
+    padding: 10px;
+    border: none;
+    right: 0px;
+    margin:10px;
+    color: aliceblue;
+    background-color: rgb(23, 76, 235);
+    box-shadow:  0 0 5px black;
+
+}
+
+.input_box:focus{
+    box-shadow: 0 0 10px 1000px rgba(0, 0, 0, 0.384);
+    outline: none;
+}
