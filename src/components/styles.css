@@ -1,32 +1,59 @@
-.input{
-    position: relative;
-    display: flex;
-    align-items: center;
-    width: 90%;
+.input {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 90%;
 }
 
-.input_box{
-    width: 100%;
-    border-radius: 50px;
-    padding: 20px 20px;
-    border: none;
-    box-shadow: inset 0 0 5px black;
+.input_box {
+  width: 100%;
+  border-radius: 50px;
+  padding: 20px 20px;
+  border: none;
+  box-shadow: inset 0 0 5px black;
 }
 
-.input_submit{
-    position: absolute;
-    border-radius: 100%;
-    padding: 10px;
-    border: none;
-    right: 0px;
-    margin:10px;
-    color: aliceblue;
-    background-color: rgb(23, 76, 235);
-    box-shadow:  0 0 5px black;
-
+.input_submit {
+  position: absolute;
+  border-radius: 100%;
+  padding: 10px;
+  border: none;
+  right: 0px;
+  margin: 10px;
+  color: aliceblue;
+  background-color: rgb(23, 76, 235);
+  box-shadow: 0 0 5px black;
 }
 
-.input_box:focus{
-    box-shadow: 0 0 10px 1000px rgba(0, 0, 0, 0.384);
-    outline: none;
+.input_box:focus {
+  box-shadow: 0 0 10px 1000px rgba(0, 0, 0, 0.384);
+  outline: none;
+}
+
+.singleTodo {
+  width: 100%;
+  display: flex;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 15px;
+  background-image: url("https://img.freepik.com/free-photo/crumpled-yellow-paper-background-close-up_60487-2390.jpg?size=626&ext=jpg");
+
+  transition: 0.2s;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.singleTodo-Text {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  flex: 1;
+  font-size: large;
+  font-weight: bold;
+}
+.icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-box span {
+  margin: 0px 5px;
 }
