@@ -44,7 +44,6 @@
   flex-direction: row;
 }
 .singleTodo-Text {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   flex: 1;
   font-size: large;
   font-weight: bold;
